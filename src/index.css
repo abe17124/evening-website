@@ -313,7 +313,32 @@ ol {
   margin-bottom: 1.5rem;
 }
 
-/* —— compare table (Honest vs Unsloth) —— */
+/* —— compare table (Honest comparisons) —— */
+.compare-section {
+  margin-bottom: 2.5rem;
+}
+
+.compare-section:last-child {
+  margin-bottom: 0;
+}
+
+.compare-category {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.compare-note {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+  margin-bottom: 1rem;
+}
+
 .compare-table {
   border: 1px solid var(--line-strong);
   background: var(--bg-panel);

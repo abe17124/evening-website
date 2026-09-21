@@ -100,24 +100,49 @@ export default function App() {
           </div>
         </section>
 
-        {/* 3. Honest vs Unsloth */}
+        {/* 3. Honest comparisons */}
         <section
           className="section contrast"
           id="contrast"
           aria-labelledby="contrast-title"
         >
-          <h2 id="contrast-title">Honest vs Unsloth</h2>
+          <h2 id="contrast-title">Honest comparisons</h2>
 
-          <div className="compare-table">
-            <div className="compare-row compare-header">
-              <div className="compare-cell"></div>
-              <div className="compare-cell">Unsloth Desktop</div>
-              <div className="compare-cell">Evening</div>
+          <div className="compare-section">
+            <h3 className="compare-category">vs Unsloth Desktop</h3>
+            <div className="compare-table">
+              <div className="compare-row compare-header">
+                <div className="compare-cell"></div>
+                <div className="compare-cell">Unsloth Desktop</div>
+                <div className="compare-cell">Evening</div>
+              </div>
+              <div className="compare-row">
+                <div className="compare-cell compare-label">Interface</div>
+                <div className="compare-cell">Local desktop studio + browser remote</div>
+                <div className="compare-cell">Telegram + ephemeral RunPod ComfyUI</div>
+              </div>
             </div>
-            <div className="compare-row">
-              <div className="compare-cell compare-label">Interface</div>
-              <div className="compare-cell">Local desktop studio + browser remote</div>
-              <div className="compare-cell">Telegram + ephemeral RunPod ComfyUI</div>
+          </div>
+
+          <div className="compare-section">
+            <h3 className="compare-category">vs Browser ComfyUI cloud</h3>
+            <p className="compare-note">ThinkDiffusion, MimicPC, RunComfy</p>
+            <div className="compare-table">
+              <div className="compare-row compare-header">
+                <div className="compare-cell"></div>
+                <div className="compare-cell">Browser ComfyUI</div>
+                <div className="compare-cell">Evening</div>
+              </div>
+              <div className="compare-row">
+                <div className="compare-cell compare-label">Interface</div>
+                <div className="compare-cell">Spin cloud GPU → open ComfyUI in browser tab → wire nodes / studio</div>
+                <div className="compare-cell">Telegram end-to-end → paste BYO RunPod key → prebuilt workflow → MP4 in chat</div>
+              </div>
+              <div className="compare-row">
+                <div className="compare-cell compare-label">Auto-stop</div>
+                <div className="compare-cell">Manual (you close the session)</div>
+                <div className="compare-cell">Default (pod stops after generation)</div>
+              </div>
             </div>
           </div>
         </section>
