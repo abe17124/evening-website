@@ -130,18 +130,18 @@ export default function App() {
             <div className="compare-table">
               <div className="compare-row compare-header">
                 <div className="compare-cell"></div>
-                <div className="compare-cell">Browser ComfyUI</div>
+                <div className="compare-cell">ThinkDiffusion / MimicPC / RunComfy</div>
                 <div className="compare-cell">Evening</div>
               </div>
               <div className="compare-row">
                 <div className="compare-cell compare-label">Interface</div>
-                <div className="compare-cell">Spin cloud GPU → open ComfyUI in browser tab → wire nodes / studio</div>
-                <div className="compare-cell">Telegram end-to-end → paste BYO RunPod key → prebuilt workflow → MP4 in chat</div>
+                <div className="compare-cell">Start a machine → use ComfyUI / studio in the browser</div>
+                <div className="compare-cell">Telegram is the UI end-to-end — you never open a Comfy tab</div>
               </div>
               <div className="compare-row">
-                <div className="compare-cell compare-label">Auto-stop</div>
-                <div className="compare-cell">Manual (you close the session)</div>
-                <div className="compare-cell">Default (pod stops after generation)</div>
+                <div className="compare-cell compare-label">Workflow</div>
+                <div className="compare-cell">Wire nodes yourself or use templates</div>
+                <div className="compare-cell">Prebuilt workflows — key → pod → MP4 in chat → auto-stop</div>
               </div>
             </div>
           </div>
